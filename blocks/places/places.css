@@ -1,0 +1,14 @@
+.places {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 984px;
+}
+@media screen and (max-width: 1279px) {
+  .places {
+    min-width: calc(100vw - 96px);
+  }
+}

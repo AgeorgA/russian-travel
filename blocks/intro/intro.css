@@ -1,0 +1,16 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: calc(1280px - 296px);
+}
+@media screen and (max-width: 1279px) {
+  .intro {
+    min-width: calc(100vw - 96px);
+  }
+}
+@media screen and (max-width: 1023px) {
+  .intro {
+    min-width: 100vw;
+  }
+}

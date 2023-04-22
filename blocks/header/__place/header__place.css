@@ -1,0 +1,15 @@
+.header__place {
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 48px 0;
+}
+@media screen and (max-width: 1023px) {
+  .header__place {
+    padding: 24px 28px 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .header__place {
+    padding: 16px 16px 0;
+  }
+}
