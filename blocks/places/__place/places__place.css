@@ -25,13 +25,13 @@
   .places__place {
     grid-template-columns: calc(100vw - 428px) 352px;
     gap: 48px 28px;
-    margin: 88px 24px 0;
+    margin: 73px 24px 0;
   }
   .places__place:nth-child(1) {
     margin: 73px 24px 0;
   }
   .places__place:nth-child(5) {
-    margin: 73px 0 90px 0;
+    margin: 75px 24px 90px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -44,6 +44,6 @@
     margin: 64px 0 0 0;
   }
   .places__place:nth-child(5) {
-    margin: 64px 0 65px 0;
+    margin: 64px 0 65px;
   }
 }

@@ -1,7 +1,7 @@
 .cover {
   width: calc(1280px - 96px);
   /* min-width: calc(100vw - 96px); */
-  height: calc((1280px - 96px) * 0.6);
+  min-height: calc((1280px - 96px) * 0.6);
   /* min-height: calc((100vw - 96px) * 0.6); */
   background-image: url("../../images/cover-trains.jpg");
   background-size: cover;
@@ -10,7 +10,7 @@
   .cover {
     width: 100vw;
     /* min-width: calc(100vw - 96px); */
-    height: calc(100vw * 0.6);
+    min-height: calc(100vw * 0.6);
     /* min-height: calc((100vw - 96px) * 0.6); */
   }
 }
